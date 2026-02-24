@@ -92,7 +92,11 @@ export default function ExperienceSection() {
                     whileHover={{ scale: 1.1, rotate: 5 }}
                     className={`w-16 h-16 sm:w-18 p-1 sm:h-18 md:w-20 md:h-20 rounded-2xl md:rounded-3xl bg-gradient-to-br ${exp.companyColor} flex items-center justify-center shadow-xl md:shadow-2xl mb-3 md:mb-4 relative overflow-hidden group-hover:shadow-2xl md:group-hover:shadow-3xl transition-all duration-500`}
                   >
-                    <img src={exp.companyIcon} alt="company-logo" />
+                    <img src={exp.companyIcon}
+                    
+                    alt="company-logo"
+                    
+                    />
                     {/* Animated background gradient */}
                     <div className={`absolute inset-0 bg-gradient-to-br ${exp.companyColor} opacity-0 group-hover:opacity-20 transition-opacity duration-500`} />
                   </motion.div>
